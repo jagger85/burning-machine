@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Barcelona';
+    src: url('Barcelona-Regular.eot');
+    src: url('Barcelona-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Barcelona-Regular.woff2') format('woff2'),
+        url('Barcelona-Regular.woff') format('woff'),
+        url('Barcelona-Regular.ttf') format('truetype'),
+        url('Barcelona-Regular.svg#Barcelona-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DirtyBoy';
+    src: url('DirtyBoy.eot');
+    src: url('DirtyBoy.eot?#iefix') format('embedded-opentype'),
+        url('DirtyBoy.woff2') format('woff2'),
+        url('DirtyBoy.woff') format('woff'),
+        url('DirtyBoy.ttf') format('truetype'),
+        url('DirtyBoy.svg#DirtyBoy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DirtyBoy';
+    src: url('DirtyBoy_1.eot');
+    src: url('DirtyBoy_1.eot?#iefix') format('embedded-opentype'),
+        url('DirtyBoy_1.woff2') format('woff2'),
+        url('DirtyBoy_1.woff') format('woff'),
+        url('DirtyBoy_1.ttf') format('truetype'),
+        url('DirtyBoy_1.svg#DirtyBoy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

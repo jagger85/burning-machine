@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../resources/Pack1/GreatVibes-Regular.eot');
+    src: url('../resources/Pack1/GreatVibes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../resources/Pack1/GreatVibes-Regular.woff2') format('woff2'),
+        url('../resources/Pack1/GreatVibes-Regular.woff') format('woff'),
+        url('../resources/Pack1/GreatVibes-Regular.ttf') format('truetype'),
+        url('../resources/Pack1/GreatVibes-Regular.svg#GreatVibes-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+.gold {
+    --gold: #ffb338;
+    --light-shadow: #77571d;
+    --dark-shadow: #3e2904;
+  }
+  :root {
+    --gold: #c6c4bf;
+    --light-shadow: #7e7e7e;
+    --dark-shadow: #363636;
+    --silver:black;
+    --light-silver:black;
+    --dark-silver:black;
+    --naranja-letra:rgb(211, 84, 0);
+  }
+  body {
+    margin: 0;
+  }
+  .wrapper {
+    margin-top: 40px;
+    display: grid;
+    grid-template-areas: 'overlap';
+    place-content: center;
+   
+
+  }
+  .wrapper > div {
+    background-clip: text;  
+    -webkit-background-clip: text;
+    color: #363833;
+    font-family: 'Great Vibes';
+
+    font-weight: 1000;
+    font-size: 140px;
+    grid-area: overlap;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 4px transparent;
+
+  }
+
+  div.fg{
+    background-image: repeating-linear-gradient( 5deg,  
+      var(--gold) 0% , 
+      var(--light-shadow) 23%, 
+      var(--gold) 31%);
+    color: var(--naranja-letra);
+    transform: scale(1);
+
+
+    color: #E65F00;
+    text-shadow: hsla(0,0%,40%,.5) 0 -1px 0, hsla(0,0%,100%,.6) 0 2px 1px;
+    background-color: hsl(0,0%,90%);
+    transition: color .2s;
+
+
+  }

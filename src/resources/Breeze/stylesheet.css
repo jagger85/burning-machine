@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Breeze Personal Use';
+    src: url('BreezePersonalUse-Regular.eot');
+    src: url('BreezePersonalUse-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BreezePersonalUse-Regular.woff2') format('woff2'),
+        url('BreezePersonalUse-Regular.woff') format('woff'),
+        url('BreezePersonalUse-Regular.ttf') format('truetype'),
+        url('BreezePersonalUse-Regular.svg#BreezePersonalUse-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

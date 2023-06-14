@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Digital Firebomb';
+    src: url('DigitalFirebomb.eot');
+    src: url('DigitalFirebomb.eot?#iefix') format('embedded-opentype'),
+        url('DigitalFirebomb.woff2') format('woff2'),
+        url('DigitalFirebomb.woff') format('woff'),
+        url('DigitalFirebomb.ttf') format('truetype'),
+        url('DigitalFirebomb.svg#DigitalFirebomb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fire Foxes Demo';
+    src: url('FireFoxesDemoRegular.eot');
+    src: url('FireFoxesDemoRegular.eot?#iefix') format('embedded-opentype'),
+        url('FireFoxesDemoRegular.woff2') format('woff2'),
+        url('FireFoxesDemoRegular.woff') format('woff'),
+        url('FireFoxesDemoRegular.ttf') format('truetype'),
+        url('FireFoxesDemoRegular.svg#FireFoxesDemoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flame Fetish';
+    src: url('FlameFetish-Regular.eot');
+    src: url('FlameFetish-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FlameFetish-Regular.woff2') format('woff2'),
+        url('FlameFetish-Regular.woff') format('woff'),
+        url('FlameFetish-Regular.ttf') format('truetype'),
+        url('FlameFetish-Regular.svg#FlameFetish-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komikahuna';
+    src: url('Komikahuna.eot');
+    src: url('Komikahuna.eot?#iefix') format('embedded-opentype'),
+        url('Komikahuna.woff2') format('woff2'),
+        url('Komikahuna.woff') format('woff'),
+        url('Komikahuna.ttf') format('truetype'),
+        url('Komikahuna.svg#Komikahuna') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

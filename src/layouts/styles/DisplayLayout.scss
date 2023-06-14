@@ -1,0 +1,67 @@
+.Displays {  display: grid;
+    grid-template-rows: 0.4fr 0.8fr 1.5fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    margin-left: 35px;
+  }
+  
+  .TotalBurnedText {
+    justify-self: start;
+    align-self: end;
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .TotalBurnedDisplay {
+    justify-self: start;
+    align-self: center;
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  
+  .BottomDisplay {  display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 0.8fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "TotalNftMintedText GenText"
+      "TotalNftDisplay GenDisplay";
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  
+  .TotalNftMintedText {
+    justify-self: start;
+    align-self: end;
+    grid-area: TotalNftMintedText;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .TotalNftDisplay {
+    justify-self: start;
+    align-self: center;
+    grid-area: TotalNftDisplay;
+  }
+  
+  .GenText {
+    justify-self: start;
+    align-self: end;
+    grid-area: GenText;
+    margin-left: 34px;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .GenDisplay {
+    justify-self: start;
+    align-self: center;
+    grid-area: GenDisplay;
+    margin-left: 10px;
+  }
+  
