@@ -1,12 +1,19 @@
 .InputContainer {
-  background-image: url(../resources/patterns/steelradial1.jpg);
-  padding: 20px;
-  border-radius: 5%;
-  background-color: #e6e6e6;
-  box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
-  /* outer HL */
-  padding: 30px; }
+    background-image: url(../resources/patterns/steelradial1.jpg);
+    padding: 20px;
+    border-radius: 5%;
+    background-color: #e6e6e6;
+    box-shadow: inset #262626 0 0px 0px 4px,
+        inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px,
+        inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px,
+        inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px,
+        rgba(0, 0, 0, 0.15) 0 -5px 6px 4px,
+        rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+    /* outer HL */
+    padding: 30px;
+}
 
 .Keys {
-  margin-top: 10px;
-  margin-left: 80px; }
+    margin-top: 10px;
+    margin-left: 80px;
+}

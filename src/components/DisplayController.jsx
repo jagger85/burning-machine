@@ -1,3 +1,3 @@
-import React, {useState} from "react";
+import React, { useState } from 'react'
 
-const [DisplayValue,setDisplayValue] = useState('');
+const [DisplayValue, setDisplayValue] = useState('')

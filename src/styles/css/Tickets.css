@@ -1,39 +1,49 @@
 .TicketContainer {
-  border-radius: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0 1px 2px black, inset 0 2px 2px -2px white, inset 0 0 2px 15px #47434c, inset 0 0 2px 22px black, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
-  /* outer HL */
-  border-radius: 5px;
-  padding: 20px;
-  perspective: 700px;
-  width: 85%; }
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0 1px 2px black,
+        inset 0 2px 2px -2px white, inset 0 0 2px 15px #47434c,
+        inset 0 0 2px 22px black, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px,
+        rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+    /* outer HL */
+    border-radius: 5px;
+    padding: 20px;
+    perspective: 700px;
+    width: 85%;
+}
 
 .Ticket-on {
-  height: 0px;
-  width: 250px;
-  background-color: white;
-  animation-duration: 3s;
-  animation-name: eject;
-  animation-fill-mode: forwards;
-  margin-top: 2px; }
+    height: 0px;
+    width: 250px;
+    background-color: white;
+    animation-duration: 3s;
+    animation-name: eject;
+    animation-fill-mode: forwards;
+    margin-top: 2px;
+}
 
 .Ticket-off {
-  height: 0px;
-  width: 250px;
-  margin-top: 2px; }
+    height: 0px;
+    width: 250px;
+    margin-top: 2px;
+}
 
 .TicketHole {
-  height: 4px;
-  background-color: black;
-  width: 260px;
-  display: flex;
-  justify-content: center; }
+    height: 4px;
+    background-color: black;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+}
 
 @keyframes eject {
-  from {
-    heigh: 0px; }
-  to {
-    height: 350px; } }
+    from {
+        heigh: 0px;
+    }
+    to {
+        height: 350px;
+    }
+}

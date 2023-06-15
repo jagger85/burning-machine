@@ -14,18 +14,18 @@ $kbc-black: #000 !default;
 $kbc-grays: () !default;
 // stylelint-disable
 $kbc-grays: map-merge(
-  (
-    '100': $kbc-gray-100,
-    '200': $kbc-gray-200,
-    '300': $kbc-gray-300,
-    '400': $kbc-gray-400,
-    '500': $kbc-gray-500,
-    '600': $kbc-gray-600,
-    '700': $kbc-gray-700,
-    '800': $kbc-gray-800,
-    '900': $kbc-gray-900,
-  ),
-  $kbc-grays
+    (
+        '100': $kbc-gray-100,
+        '200': $kbc-gray-200,
+        '300': $kbc-gray-300,
+        '400': $kbc-gray-400,
+        '500': $kbc-gray-500,
+        '600': $kbc-gray-600,
+        '700': $kbc-gray-700,
+        '800': $kbc-gray-800,
+        '900': $kbc-gray-900,
+    ),
+    $kbc-grays
 );
 // stylelint-enable
 
@@ -46,22 +46,22 @@ $kbc-cyan: #17a2b8 !default;
 $kbc-colors: () !default;
 // stylelint-disable
 $kbc-colors: map-merge(
-  (
-    'blue': $kbc-blue,
-    'indigo': $kbc-indigo,
-    'purple': $kbc-purple,
-    'pink': $kbc-pink,
-    'red': $kbc-red,
-    'orange': $kbc-orange,
-    'yellow': $kbc-yellow,
-    'green': $kbc-green,
-    'teal': $kbc-teal,
-    'cyan': $kbc-cyan,
-    'white': $kbc-white,
-    'gray': $kbc-gray-600,
-    'gray-dark': $kbc-gray-800,
-  ),
-  $kbc-colors
+    (
+        'blue': $kbc-blue,
+        'indigo': $kbc-indigo,
+        'purple': $kbc-purple,
+        'pink': $kbc-pink,
+        'red': $kbc-red,
+        'orange': $kbc-orange,
+        'yellow': $kbc-yellow,
+        'green': $kbc-green,
+        'teal': $kbc-teal,
+        'cyan': $kbc-cyan,
+        'white': $kbc-white,
+        'gray': $kbc-gray-600,
+        'gray-dark': $kbc-gray-800,
+    ),
+    $kbc-colors
 );
 // stylelint-enable
 
@@ -77,17 +77,17 @@ $kbc-dark: $kbc-gray-800 !default;
 $kbc-theme-colors: () !default;
 // stylelint-disable
 $kbc-theme-colors: map-merge(
-  (
-    'primary': $kbc-primary,
-    'secondary': $kbc-secondary,
-    'success': $kbc-success,
-    'info': $kbc-info,
-    'warning': $kbc-warning,
-    'danger': $kbc-danger,
-    'light': $kbc-light,
-    'dark': $kbc-dark,
-  ),
-  $kbc-theme-colors
+    (
+        'primary': $kbc-primary,
+        'secondary': $kbc-secondary,
+        'success': $kbc-success,
+        'info': $kbc-info,
+        'warning': $kbc-warning,
+        'danger': $kbc-danger,
+        'light': $kbc-light,
+        'dark': $kbc-dark,
+    ),
+    $kbc-theme-colors
 );
 // stylelint-enable
 
@@ -125,10 +125,10 @@ $kbc-border-radius-sm: 0.2rem !default;
 // Font, line-height, and color for body text, headings, and more.
 
 $kbc-font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
 $kbc-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-  'Liberation Mono', 'Courier New', monospace !default;
+    'Liberation Mono', 'Courier New', monospace !default;
 
 $kbc-font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $kbc-font-size-lg: $kbc-font-size-base * 1.25 !default;
@@ -174,8 +174,8 @@ $kbc-btn-icon-right: 0.5rem !default;
 $kbc-btn-icon-top: 0.5rem !default;
 // stylelint-disable
 $kbc-btn-hover-bg-color: adjust-color(
-  $kbc-btn-bg-color,
-  $lightness: -10%
+    $kbc-btn-bg-color,
+    $lightness: -10%
 ) !default;
 // stylelint-enable
 
@@ -194,18 +194,18 @@ $kbc-kbd-font-family: $kbc-font-family-monospace !default;
 $kbc-kbd-size-base: () !default;
 // stylelint-disable
 $kbc-kbd-size-base: map-merge(
-  (
-    'padding-y': 0.1rem,
-    'padding-x': 0.4rem,
-    'font-size': $kbc-kbd-font-size-base,
-    'line-height': $kbc-kbd-line-height-base,
-    'depth': $kbc-kbd-depth,
-    'after-border-width': 0.125rem,
-    'after-adjust-x': -0.0625rem,
-    'after-adjust-y': -6,
-    'after-border-radius': $kbc-kbd-border-radius + 0.25rem,
-  ),
-  $kbc-kbd-size-base
+    (
+        'padding-y': 0.1rem,
+        'padding-x': 0.4rem,
+        'font-size': $kbc-kbd-font-size-base,
+        'line-height': $kbc-kbd-line-height-base,
+        'depth': $kbc-kbd-depth,
+        'after-border-width': 0.125rem,
+        'after-adjust-x': -0.0625rem,
+        'after-adjust-y': -6,
+        'after-border-radius': $kbc-kbd-border-radius + 0.25rem,
+    ),
+    $kbc-kbd-size-base
 );
 // stylelint-enable
 
@@ -214,70 +214,70 @@ $kbc-kbd-size-base: map-merge(
 $kbc-btn-size-base: () !default;
 // stylelint-disable
 $kbc-btn-size-base: map-merge(
-  (
-    'padding-y': 0.375rem,
-    'padding-x': 0.75rem,
-    'font-size': $kbc-font-size-base,
-    'line-height': $kbc-line-height-base,
-    'depth': $kbc-btn-depth,
-    'after-border-width': 0.125rem,
-    'after-adjust-x': -0.0625rem,
-    'after-adjust-y': -5,
-    'after-border-radius': $kbc-btn-border-radius + 0.25rem,
-  ),
-  $kbc-btn-size-base
+    (
+        'padding-y': 0.375rem,
+        'padding-x': 0.75rem,
+        'font-size': $kbc-font-size-base,
+        'line-height': $kbc-line-height-base,
+        'depth': $kbc-btn-depth,
+        'after-border-width': 0.125rem,
+        'after-adjust-x': -0.0625rem,
+        'after-adjust-y': -5,
+        'after-border-radius': $kbc-btn-border-radius + 0.25rem,
+    ),
+    $kbc-btn-size-base
 );
 // stylelint-enable
 
 // stylelint-disable
 $kbc-btn-size-map: () !default;
 $kbc-btn-size-map: map-merge(
-  (
-    'xxs': (
-      'padding-y': 0.1rem,
-      'padding-x': 0.3rem,
-      'font-size': $kbc-font-size-xxs,
-      'line-height': $kbc-line-height-xxs,
-      'depth': $kbc-btn-depth-xxs,
-      'after-border-width': 0.0625rem,
-      'after-adjust-x': -0.125rem,
-      'after-adjust-y': -4,
-      'after-border-radius': $kbc-btn-border-radius + 0.125rem,
+    (
+        'xxs': (
+            'padding-y': 0.1rem,
+            'padding-x': 0.3rem,
+            'font-size': $kbc-font-size-xxs,
+            'line-height': $kbc-line-height-xxs,
+            'depth': $kbc-btn-depth-xxs,
+            'after-border-width': 0.0625rem,
+            'after-adjust-x': -0.125rem,
+            'after-adjust-y': -4,
+            'after-border-radius': $kbc-btn-border-radius + 0.125rem,
+        ),
+        'xs': (
+            'padding-y': 0.175rem,
+            'padding-x': 0.5rem,
+            'font-size': $kbc-font-size-xs,
+            'line-height': $kbc-line-height-xs,
+            'depth': $kbc-btn-depth-xs,
+            'after-border-width': 0.0625rem,
+            'after-adjust-x': -0.125rem,
+            'after-adjust-y': -4,
+            'after-border-radius': $kbc-btn-border-radius + 0.125rem,
+        ),
+        'sm': (
+            'padding-y': 0.25rem,
+            'padding-x': 0.5rem,
+            'font-size': $kbc-font-size-sm,
+            'line-height': $kbc-line-height-sm,
+            'depth': $kbc-btn-depth-sm,
+            'after-border-width': 0.09375rem,
+            'after-adjust-x': -0.0625rem,
+            'after-adjust-y': -4,
+            'after-border-radius': $kbc-btn-border-radius + 0.125rem,
+        ),
+        'lg': (
+            'padding-y': 0.5rem,
+            'padding-x': 1rem,
+            'font-size': $kbc-font-size-lg,
+            'line-height': $kbc-line-height-lg,
+            'depth': $kbc-btn-depth-lg,
+            'after-border-width': 0.125rem,
+            'after-adjust-x': -0.125rem,
+            'after-adjust-y': -5,
+            'after-border-radius': $kbc-btn-border-radius + 0.25rem,
+        ),
     ),
-    'xs': (
-      'padding-y': 0.175rem,
-      'padding-x': 0.5rem,
-      'font-size': $kbc-font-size-xs,
-      'line-height': $kbc-line-height-xs,
-      'depth': $kbc-btn-depth-xs,
-      'after-border-width': 0.0625rem,
-      'after-adjust-x': -0.125rem,
-      'after-adjust-y': -4,
-      'after-border-radius': $kbc-btn-border-radius + 0.125rem,
-    ),
-    'sm': (
-      'padding-y': 0.25rem,
-      'padding-x': 0.5rem,
-      'font-size': $kbc-font-size-sm,
-      'line-height': $kbc-line-height-sm,
-      'depth': $kbc-btn-depth-sm,
-      'after-border-width': 0.09375rem,
-      'after-adjust-x': -0.0625rem,
-      'after-adjust-y': -4,
-      'after-border-radius': $kbc-btn-border-radius + 0.125rem,
-    ),
-    'lg': (
-      'padding-y': 0.5rem,
-      'padding-x': 1rem,
-      'font-size': $kbc-font-size-lg,
-      'line-height': $kbc-line-height-lg,
-      'depth': $kbc-btn-depth-lg,
-      'after-border-width': 0.125rem,
-      'after-adjust-x': -0.125rem,
-      'after-adjust-y': -5,
-      'after-border-radius': $kbc-btn-border-radius + 0.25rem,
-    ),
-  ),
-  $kbc-btn-size-map
+    $kbc-btn-size-map
 );
 // stylelint-enable

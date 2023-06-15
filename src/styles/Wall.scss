@@ -1,45 +1,44 @@
 @font-face {
     font-family: 'Barcelona';
     src: url('../resources/Barcelona/Barcelona-Regular.eot');
-    src: url('../resources/Barcelona/Barcelona-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../resources/Barcelona/Barcelona-Regular.eot?#iefix')
+            format('embedded-opentype'),
         url('../resources/Barcelona/Barcelona-Regular.woff2') format('woff2'),
         url('../resources/Barcelona/Barcelona-Regular.woff') format('woff'),
         url('../resources/Barcelona/Barcelona-Regular.ttf') format('truetype'),
-        url('../resources/Barcelona/Barcelona-Regular.svg#Barcelona-Regular') format('svg');
+        url('../resources/Barcelona/Barcelona-Regular.svg#Barcelona-Regular')
+            format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-.WallText{
-font-family: 'Barcelona';
-font-size: 40px;  
+.WallText {
+    font-family: 'Barcelona';
+    font-size: 40px;
 }
 
-
-
-
-.uno{
+.uno {
     transform: rotate(1deg);
 }
-.nuno{
+.nuno {
     transform: rotate(-1deg);
 }
-.dos{
+.dos {
     transform: rotate(2deg);
 }
-.ndos{
+.ndos {
     transform: rotate(-2deg);
 }
-.cuatro{
+.cuatro {
     transform: rotate(4deg);
 }
-.ncuatro{
+.ncuatro {
     transform: rotate(-4deg);
 }
-.cinco{
+.cinco {
     transform: rotate(5deg);
 }
-.ncinco{
+.ncinco {
     transform: rotate(-5deg);
 }

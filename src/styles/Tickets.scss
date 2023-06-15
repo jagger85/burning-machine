@@ -1,26 +1,28 @@
-.TicketContainer{
+.TicketContainer {
     border-radius: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
-    box-shadow: 
-      0 0 10px 2px rgba(black, 0.2), // The surrounding shadow (first layer)
-      0 0 1px 2px black, // The surrounding shadow (second layer)
-      inset 0 2px 2px -2px white, // The top white "shine"
-      inset 0 0 2px 15px #47434c, // The light gray frame
-      inset 0 0 2px 22px black, // The internal black shadow
-      hsla(0,0%, 0%,.15) 0 -5px 6px 4px, /* outer SD */
-      hsla(0,0%,100%,.5) 0  5px 6px 4px; /* outer HL */ 
+    box-shadow: 0 0 10px 2px rgba(black, 0.2),
+        // The surrounding shadow (first layer)
+        0 0 1px 2px black,
+        // The surrounding shadow (second layer)
+        inset 0 2px 2px -2px white,
+        // The top white "shine"
+        inset 0 0 2px 15px #47434c,
+        // The light gray frame
+        inset 0 0 2px 22px black,
+        // The internal black shadow
+        hsla(0, 0%, 0%, 0.15) 0 -5px 6px 4px,
+        /* outer SD */ hsla(0, 0%, 100%, 0.5) 0 5px 6px 4px; /* outer HL */
     border-radius: 5px;
     padding: 20px;
     perspective: 700px;
     width: 85%;
-
 }
 
-.Ticket-on{
-
+.Ticket-on {
     height: 0px;
     width: 250px;
     background-color: white;
@@ -30,14 +32,13 @@
     margin-top: 2px;
 }
 
-.Ticket-off{
-
+.Ticket-off {
     height: 0px;
     width: 250px;
     margin-top: 2px;
 }
 
-.TicketHole{
+.TicketHole {
     height: 4px;
     background-color: black;
     width: 260px;
@@ -45,12 +46,11 @@
     justify-content: center;
 }
 
-@keyframes eject{
-    from{
-        heigh:0px;
+@keyframes eject {
+    from {
+        heigh: 0px;
     }
-    to{
+    to {
         height: 350px;
     }
-
 }
